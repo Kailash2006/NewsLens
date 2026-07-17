@@ -1,0 +1,8 @@
+[
+  { "id": "jr_amelia_shaw", "name": "Amelia Shaw", "beat": "Politics", "leanProfile": "center-left" },
+  { "id": "jr_rohan_mehta", "name": "Rohan Mehta", "beat": "Indian Politics", "leanProfile": "center" },
+  { "id": "jr_daniel_pike", "name": "Daniel Pike", "beat": "Technology", "leanProfile": "center" },
+  { "id": "jr_lucy_owens", "name": "Lucy Owens", "beat": "Climate", "leanProfile": "left" },
+  { "id": "jr_marcus_bell", "name": "Marcus Bell", "beat": "Markets", "leanProfile": "center-right" },
+  { "id": "jr_priya_nair", "name": "Priya Nair", "beat": "Cricket", "leanProfile": "center" }
+]

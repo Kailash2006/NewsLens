@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bn_india_elections",
+    "name": "India Elections",
+    "slug": "india-elections",
+    "description": "State and national contests, results, and analysis across the Indian political landscape.",
+    "topics": ["india-elections", "politics"],
+    "keywords": ["election", "assembly", "coalition", "opposition", "vote"],
+    "color": "#f97316",
+    "followerCount": 12840
+  },
+  {
+    "id": "bn_ai_news",
+    "name": "AI News",
+    "slug": "ai-news",
+    "description": "Frontier models, AI policy, and how the technology is reshaping industries.",
+    "topics": ["ai", "technology"],
+    "keywords": ["artificial intelligence", "model", "regulation", "chip", "compute"],
+    "color": "#6366f1",
+    "followerCount": 20315
+  },
+  {
+    "id": "bn_climate",
+    "name": "Climate",
+    "slug": "climate",
+    "description": "Climate science, policy, summits, and the global energy transition.",
+    "topics": ["climate", "environment"],
+    "keywords": ["climate", "emissions", "fossil fuel", "summit", "finance"],
+    "color": "#10b981",
+    "followerCount": 9560
+  },
+  {
+    "id": "bn_cricket",
+    "name": "Cricket",
+    "slug": "cricket",
+    "description": "Match reports, series coverage, and analysis from across the cricketing world.",
+    "topics": ["cricket", "sports"],
+    "keywords": ["cricket", "series", "wicket", "innings", "over"],
+    "color": "#eab308",
+    "followerCount": 30120
+  },
+  {
+    "id": "bn_markets",
+    "name": "Markets",
+    "slug": "markets",
+    "description": "Earnings, macro moves, and the companies driving the market.",
+    "topics": ["markets", "business"],
+    "keywords": ["earnings", "stocks", "rally", "guidance", "shares"],
+    "color": "#0ea5e9",
+    "followerCount": 15870
+  },
+  {
+    "id": "bn_tech",
+    "name": "Technology",
+    "slug": "technology",
+    "description": "Product launches, platforms, and the business of technology.",
+    "topics": ["technology", "ai", "business"],
+    "keywords": ["technology", "software", "platform", "startup", "launch"],
+    "color": "#8b5cf6",
+    "followerCount": 18240
+  }
+]

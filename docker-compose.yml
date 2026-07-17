@@ -1,0 +1,45 @@
+# Infrastructure for DATA_MODE=live. Not required for mock-mode dev.
+#   docker compose up -d        # start postgres, redis, elasticsearch
+#   docker compose down         # stop
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: newslens-postgres
+    environment:
+      POSTGRES_USER: newslens
+      POSTGRES_PASSWORD: newslens
+      POSTGRES_DB: newslens
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infra/db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+      - ./infra/db/seed.sql:/docker-entrypoint-initdb.d/02-seed.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U newslens"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: newslens-redis
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--save", "60", "1", "--loglevel", "warning"]
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.0
+    container_name: newslens-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+
+volumes:
+  pgdata:
+  esdata:

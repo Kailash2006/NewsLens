@@ -1,0 +1,32 @@
+[
+  {
+    "id": "usr_demo",
+    "name": "Demo Reader",
+    "email": "demo@newslens.app",
+    "avatarColor": "#6366f1",
+    "plan": "reader",
+    "onboarded": true,
+    "preferences": {
+      "topics": ["ai", "india-elections", "climate", "technology", "markets"],
+      "followedSourceIds": ["src_reuters", "src_bbc", "src_thehindu"],
+      "followedBundleIds": ["bn_ai_news", "bn_india_elections", "bn_climate"],
+      "followedJournalistIds": ["jr_daniel_pike", "jr_lucy_owens"],
+      "biasFilter": "all",
+      "dailyGoalMinutes": 30,
+      "digestCadence": "weekly"
+    },
+    "signals": {
+      "thumbsUp": ["art_ai_reuters", "art_cli_ap"],
+      "thumbsDown": ["art_ai_foxbiz"],
+      "bookmarked": ["art_ind_bbc", "art_earnings_wsj"],
+      "skipped": ["art_cricket_toi"]
+    },
+    "readingHistory": [
+      { "articleId": "art_ai_reuters", "readAt": "2026-07-17T08:05:00Z", "minutes": 4 },
+      { "articleId": "art_ind_bbc", "readAt": "2026-07-17T07:10:00Z", "minutes": 5 },
+      { "articleId": "art_cli_ap", "readAt": "2026-07-16T22:15:00Z", "minutes": 4 },
+      { "articleId": "art_earnings_wsj", "readAt": "2026-07-16T20:40:00Z", "minutes": 4 },
+      { "articleId": "art_ind_reuters", "readAt": "2026-07-15T09:30:00Z", "minutes": 3 }
+    ]
+  }
+]

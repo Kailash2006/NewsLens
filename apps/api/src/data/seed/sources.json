@@ -1,0 +1,90 @@
+[
+  {
+    "id": "src_reuters",
+    "name": "Reuters",
+    "slug": "reuters",
+    "homepage": "https://www.reuters.com",
+    "bias": "center",
+    "biasSource": "AllSides",
+    "trustScore": 94,
+    "country": "GB",
+    "brandColor": "#ff8000"
+  },
+  {
+    "id": "src_ap",
+    "name": "Associated Press",
+    "slug": "ap",
+    "homepage": "https://apnews.com",
+    "bias": "center",
+    "biasSource": "AllSides",
+    "trustScore": 93,
+    "country": "US",
+    "brandColor": "#ff322e"
+  },
+  {
+    "id": "src_bbc",
+    "name": "BBC News",
+    "slug": "bbc",
+    "homepage": "https://www.bbc.com/news",
+    "bias": "center-left",
+    "biasSource": "Ad Fontes Media",
+    "trustScore": 88,
+    "country": "GB",
+    "brandColor": "#bb1919"
+  },
+  {
+    "id": "src_guardian",
+    "name": "The Guardian",
+    "slug": "guardian",
+    "homepage": "https://www.theguardian.com",
+    "bias": "left",
+    "biasSource": "AllSides",
+    "trustScore": 80,
+    "country": "GB",
+    "brandColor": "#052962"
+  },
+  {
+    "id": "src_wsj",
+    "name": "The Wall Street Journal",
+    "slug": "wsj",
+    "homepage": "https://www.wsj.com",
+    "bias": "center-right",
+    "biasSource": "AllSides",
+    "trustScore": 85,
+    "country": "US",
+    "brandColor": "#000000"
+  },
+  {
+    "id": "src_foxbiz",
+    "name": "Fox Business",
+    "slug": "fox-business",
+    "homepage": "https://www.foxbusiness.com",
+    "bias": "right",
+    "biasSource": "AllSides",
+    "trustScore": 62,
+    "country": "US",
+    "brandColor": "#003366"
+  },
+  {
+    "id": "src_thehindu",
+    "name": "The Hindu",
+    "slug": "the-hindu",
+    "homepage": "https://www.thehindu.com",
+    "bias": "center-left",
+    "biasSource": "Ad Fontes Media",
+    "trustScore": 82,
+    "country": "IN",
+    "brandColor": "#00559e"
+  },
+  {
+    "id": "src_toi",
+    "name": "The Times of India",
+    "slug": "times-of-india",
+    "homepage": "https://timesofindia.indiatimes.com",
+    "bias": "center",
+    "biasSource": "Ad Fontes Media",
+    "trustScore": 71,
+    "country": "IN",
+    "brandColor": "#d9232e"
+  }
+]

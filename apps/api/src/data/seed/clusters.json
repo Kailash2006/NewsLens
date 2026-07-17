@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cl_ai_rules",
+    "headline": "Regulators move to enforce sweeping new rules on general-purpose AI",
+    "neutralSummary": "Governments on both sides of the Atlantic began enforcing new obligations on the largest AI model providers, including transparency reports and risk assessments. Industry groups warn of compliance costs while civil-society groups call the rules overdue.",
+    "topics": ["ai", "technology", "regulation"],
+    "articleIds": ["art_ai_reuters", "art_ai_guardian", "art_ai_wsj", "art_ai_foxbiz"],
+    "updatedAt": "2026-07-17T08:20:00Z"
+  },
+  {
+    "id": "cl_india_election",
+    "headline": "State assembly results reshape India's pre-election political map",
+    "neutralSummary": "Counting concluded in a set of closely watched state assembly elections, delivering a split verdict that both the ruling coalition and the opposition claimed as momentum ahead of national contests.",
+    "topics": ["india-elections", "politics"],
+    "articleIds": ["art_ind_hindu", "art_ind_toi", "art_ind_bbc", "art_ind_reuters"],
+    "updatedAt": "2026-07-17T06:05:00Z"
+  },
+  {
+    "id": "cl_climate_summit",
+    "headline": "Nations agree on a climate-finance framework but stop short on fossil fuels",
+    "neutralSummary": "Delegates at the summit reached a framework to scale up climate finance for developing nations, while language on phasing out fossil fuels was softened in the final text, drawing mixed reactions.",
+    "topics": ["climate", "environment"],
+    "articleIds": ["art_cli_bbc", "art_cli_guardian", "art_cli_ap"],
+    "updatedAt": "2026-07-16T21:40:00Z"
+  }
+]
